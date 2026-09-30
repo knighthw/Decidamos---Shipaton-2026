@@ -11,6 +11,12 @@ Hecha con React Native y Expo (SDK 54), en TypeScript. Presentada al RevenueCat 
 
 ---
 
+## Capturas
+
+| Inicio | Deslizando las opciones | La pelea |
+|:---:|:---:|:---:|
+| ![Pantalla de inicio](capturas/inicio.png) | ![Votando una opción](capturas/swipe.png) | ![Combate por turnos](capturas/pelea.png) |
+
 ## Cómo funciona
 
 1. **El dilema.** Uno escribe qué hay que decidir, por ejemplo "no sabemos qué cenar".
