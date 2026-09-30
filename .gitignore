@@ -1,0 +1,44 @@
+# El prototipo web original: se conserva en local como referencia de diseño,
+# pero no forma parte de la app
+prototipo-web/
+
+# dependencias
+node_modules/
+
+# llaves (ver .env.example)
+.env
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# nativo
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+/android
+/ios
+
+# capturas de pantalla que se pasan para pedir cambios: material de usar y tirar
+assets/ejmmplos/
+
+# builds de Android: pesan decenas de MB y se suben a Play Console, no al repo
+*.aab
+*.apk
+
+# credenciales en JSON (cuentas de servicio de Google Play, llaves de RevenueCat).
+# El repo es público: una de estas subida por error da acceso a la cuenta.
+*-key.json
+*service-account*.json
+*credentials*.json
+
+# sistema
+.DS_Store
+*.zip
+npm-debug.*
+.tmp-pruebas/

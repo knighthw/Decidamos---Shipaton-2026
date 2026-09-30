@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "outDir": ".tmp-pruebas",
+    "rootDir": "src",
+    "skipLibCheck": true,
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/logica/**/*.ts",
+    "src/navegacion.ts"
+  ]
+}
